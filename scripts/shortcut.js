@@ -5,7 +5,6 @@ document.onkeydown = function(e) {
 
   switch(e.key) {
     case 'k':
-      console.log(button)
       button.click()
       e.preventDefault()
       return
