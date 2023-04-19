@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Chat Enhanced",
+  "description": "Chat Enchanced adds some useful enhancements to Google Chat",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "js": ["scripts/shortcut.js"],
+      "matches": [
+        "https://mail.google.com/chat/*"
+      ]
+    }
+  ]
+}
